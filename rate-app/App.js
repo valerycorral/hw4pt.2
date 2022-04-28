@@ -1,4 +1,4 @@
-install react native paper (npm install react-native-paper), navigation (npm install @react-navigation/native and expo install react-native-screens react-native-safe-area-context)
+//install react native paper (npm install react-native-paper), navigation (npm install @react-navigation/native and expo install react-native-screens react-native-safe-area-context) ;
 //install stack navigator(npm install @react-navigation/stack)
 //install npm install react-native-gesture-handler
 
@@ -43,7 +43,7 @@ const myStyles = {
   return (
     <View style={styles.container}>
       <Stack.Navigator>
-        <Stack.Screen name = 'Song' component = {Song}
+        <Stack.Screen name = 'Add a Song and Artist to Rate!' component = {Song}
           options = {myStyles}
         />
         <Stack.Screen name = 'Create' component = {Create}
@@ -106,7 +106,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F1E3D3',
-    marginTop:Contants.statusBarHeight
+    marginTop:Contants.statusBarHeight,
+    //alignItems: "center",
+    //justifyContent: "center",
 
   },
 // textStyle :{

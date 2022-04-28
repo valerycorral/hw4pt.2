@@ -1,4 +1,4 @@
-install react native paper (npm install react-native-paper), navigation (npm install @react-navigation/native and expo install react-native-screens react-native-safe-area-context)
+//install react native paper (npm install react-native-paper), navigation (npm install @react-navigation/native and expo install react-native-screens react-native-safe-area-context)
 //install stack navigator(npm install @react-navigation/stack)
 //install npm install react-native-gesture-handler
 

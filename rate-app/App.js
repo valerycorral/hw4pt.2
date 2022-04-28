@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+//install react native paper (npm install react-native-paper), navigation (npm install @react-navigation/native and expo install react-native-screens react-native-safe-area-context) ;
+=======
+//install react native paper (npm install react-native-paper), navigation (npm install @react-navigation/native and expo install react-native-screens react-native-safe-area-context)
+>>>>>>> 487424d92353084b1e513714c68c3134b82f197a
+//install stack navigator(npm install @react-navigation/stack)
+//install npm install react-native-gesture-handler
+>>>>>>> 2bfa36e29d8d47adf1dfcf879da9768ebe060356
 
 import { StyleSheet,Keyboard, Text, View, KeyboardAvoidingView,TextInput,TouchableOpacity } from 'react-native';
 import React, {useState} from 'react';
@@ -39,7 +49,7 @@ const myStyles = {
   return (
     <View style={styles.container}>
       <Stack.Navigator>
-        <Stack.Screen name = 'Song' component = {Song}
+        <Stack.Screen name = 'Add a Song and Artist to Rate!' component = {Song}
           options = {myStyles}
         />
         <Stack.Screen name = 'Create' component = {Create}
@@ -105,7 +115,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F1E3D3',
-    marginTop:Contants.statusBarHeight
+    marginTop:Contants.statusBarHeight,
+    //alignItems: "center",
+    //justifyContent: "center",
 
   },
 // textStyle :{

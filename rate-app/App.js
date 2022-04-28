@@ -1,8 +1,4 @@
-//install react native paper (npm install react-native-paper), navigation (npm install @react-navigation/native and expo install react-native-screens react-native-safe-area-context)
-//install stack navigator(npm install @react-navigation/stack)
-//install npm install react-native-gesture-handler
 
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet,Keyboard, Text, View, KeyboardAvoidingView,TextInput,TouchableOpacity } from 'react-native';
 import React, {useState} from 'react';
 import Song from './components/Song';
@@ -54,6 +50,9 @@ const myStyles = {
         />
         <Stack.Screen name = "Edit" component = {Edit}
           options = {{...myStyles, title:'Edit'}}
+        />
+        <Stack.Screen name = "Rate" component = {Rate}
+          options = {{...myStyles, title:'Rate'}}
         />
       </Stack.Navigator>
     </View>
